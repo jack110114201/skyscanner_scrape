@@ -22,7 +22,7 @@
    * url結構:
      - 去程: https://www.skyscanner.com.tw/transport/flights/出發地/目的地/出發日期/?成人人數
        - 例如: https://www.skyscanner.com.tw/transport/flights/tpet/hkd/230807/?adultsv2=1
-     - 去程+回程: https://www.skyscanner.com.tw/transport/flights/出發地/抵達地/出發日期/回程日期/?成人人數
+     - 去程+回程: https://www.skyscanner.com.tw/transport/flights/出發地/目的地/出發日期/回程日期/?成人人數
        - 例如: https://www.skyscanner.com.tw/transport/flights/tpet/hkd/230811/230914/?adultsv2=1
      - 還有其他參數，例如艙等、小孩人數等。這邊只用了出發地、目的地、出發日期、人數等資訊。
    * 欲爬取的目標資訊:
