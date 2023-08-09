@@ -51,7 +51,7 @@
      - 在設計dag時，想說如果每次爬蟲時，都是去查詢當日的航班資訊，滿奇怪的，飛機可能都要飛走了XD，所以就採用執行日+30天的方式去查詢
      - 在使用BashOperator時，啟動sh程式時，有發生錯誤，經查資料後，如果你的sh程式沒有要帶任何參數進去，需要空一格，才不會發生錯誤
      - 如果想要執行多日的DAG，為了讓DAG可以一天一天有順序的執行，這邊採用'depends_on_past': True、max_active_runs=1的方式去做控制
-4. Looker Dashboard:
+## 五、Looker Dashboard:
 .........
     
     
